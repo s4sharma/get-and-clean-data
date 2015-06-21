@@ -71,5 +71,5 @@ names is a temp character vector. Assign the new names back to the dataset.
 
 Part 4:
 
-Aggregate the measures for an average along the activityId and subject Id. Write out the tidy dataset
+Aggregate the measures for an average along the activityId and subjectId. Write out the tidy dataset
 to a text file using the write.table() function.
