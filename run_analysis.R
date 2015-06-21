@@ -116,4 +116,4 @@ prelim_tidydata = aggregate(prelim_dataset[,colnames(prelim_dataset) != c('activ
 tidy_dataset = merge(prelim_tidydata, activity_labels, by='activityId', all.x=TRUE);
 
 # REQ 5: Write the tidy dataset to tody.txt using write.table.
-write.table(tidy_dataset, './tidy_data.txt', row.names=TRUE, sep='\t', eol='\n');
+write.table(tidy_dataset, './tidy_data.txt', row.names=FALSE, sep='\t', eol='\n');
